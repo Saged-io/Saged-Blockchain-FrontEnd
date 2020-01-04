@@ -1,0 +1,25 @@
+.red-alert {
+  background-color: orangered !important;
+  border-color: orangered !important;
+  color: white;
+}
+h1 {
+  color: red;
+}
+p {
+  color: white;
+}
+.red-button {
+  background-color: black;
+  border-color: red;
+  color: red;
+}
+.red-button:hover {
+  background-color: red;
+  border-color: red;
+  color: black;
+}
+.red-table {
+  background-color: black;
+  color: white;
+}

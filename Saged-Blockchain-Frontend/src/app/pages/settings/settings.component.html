@@ -5,8 +5,8 @@
   <br>
 
   <div class="form-group">
-    <label for="difficulty">Difficulty</label>
-    <input type="number" class="form-control" id="difficulty" aria-describedby="difficultyHelp" [(ngModel)]="blockchain.difficulty">
+    <label class="red"for="difficulty">Difficulty</label>
+    <input type="number" class="form-control dark-form" id="difficulty" aria-describedby="difficultyHelp" [(ngModel)]="blockchain.difficulty">
     <small id="difficultyHelp" class="form-text text-muted">
     	Difficulty controls how long the mining process takes. Higher numbers will make mining a lot slower!
     	<br>Default: 2
@@ -16,8 +16,8 @@
   <br>
 
   <div class="form-group">
-    <label for="miningReward">Mining reward</label>
-    <input type="number" class="form-control" id="miningReward" aria-describedby="miningRewardHelp" [(ngModel)]="blockchain.miningReward">
+    <label class="red" for="miningReward">Mining reward</label>
+    <input type="number" class="form-control dark-form" id="miningReward" aria-describedby="miningRewardHelp" [(ngModel)]="blockchain.miningReward">
     <small id="miningRewardHelp" class="form-text text-muted">
 		How much "coins" a miner receives for successfully creating a new block for the chain.
 		<br>Default: 100

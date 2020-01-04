@@ -1,9 +1,11 @@
 <div class="container">
+	<h1>SAGED BLOCKCHAIN</h1>
+	<br>
 	<h1>Blocks on chain</h1>
 	<p>Each card represents a block on the chain. Click on a block to see the transactions stored inside.</p>
 </div>
 
-<div class="container" style="overflow-x: scroll;white-space: nowrap;">
+<div class="container dark-container2" style="overflow-x: scroll;white-space: nowrap;">
 	<app-block-view 
 		*ngFor="let block of blocks" 
 		[block]="block" 
@@ -14,7 +16,7 @@
 
 <br><br>
 
-<div class="container">
+<div class="container dark-container">
 	<h1>Transactions inside block {{ getBlockNumber(selectedBlock) }}</h1>
 
 	<app-transactions-table

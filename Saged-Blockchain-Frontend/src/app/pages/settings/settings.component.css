@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+}
+p {
+  color: white;
+}
+.red {
+  color: red !important;
+  font-weight: bold;
+}
+.dark-form {
+  background-color: black !important;
+  color: white !important;
+}

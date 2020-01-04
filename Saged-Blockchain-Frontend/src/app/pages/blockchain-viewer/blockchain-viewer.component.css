@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+}
+p {
+  color: white;
+}
+.dark-container {
+  color: white !important;
+}
+.dark-container2 {
+  color: black !important;
+  background-color: black !important;
+}

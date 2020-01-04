@@ -1,0 +1,34 @@
+h1 {
+  color: red;
+}
+p {
+  color: white;
+}
+.white {
+  color: white;
+}
+.form-control {
+  background-color: black !important;
+  color: red;
+  border-color: red !important;
+}
+#toAddress {
+  background-color: black !important;
+  color: red;
+  border-color: red !important;
+}
+#amount {
+  background-color: black !important;
+  color: red;
+  border-color: red !important;
+}
+.red {
+  background-color: black;
+  border-color: red;
+  color: red;
+}
+.red:hover {
+  background-color: red;
+  border-color: red;
+  color: white;
+}

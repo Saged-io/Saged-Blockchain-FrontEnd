@@ -1,6 +1,6 @@
-<nav class="navbar navbar-dark bg-dark">
-  <a class="navbar-brand" routerLink="/">
-   Saged Blockchain
+<nav class="navbar navbar-dark bg-dark black-nav">
+  <a class="navbar-brand red-text" routerLink="/">
+    <img src="assets/img/Saged_Header_logo_high_res.png" width="30" height="30" class="saged-logo" alt=""> SAGED BLOCKCHAIN
   </a>
 
   <div>
@@ -9,11 +9,11 @@
       <span class="badge badge-light">{{blockchain.pendingTransactions.length}}</span>
     </button>
     &nbsp;
-    <button routerLink="/settings" class="btn btn-outline-light">
+    <button routerLink="/settings" class="btn btn-outline-light red-button">
       Settings
     </button>
     &nbsp;
-    <button routerLink="/new/transaction" class="btn btn-outline-light">
+    <button routerLink="/new/transaction" class="btn btn-outline-light red-button">
       Create transaction
     </button>
   </div>
@@ -22,12 +22,14 @@
 <br>
 
 
+
 <router-outlet></router-outlet>
 
 <footer class="text-muted text-center" style="margin-top: 150px;">
-  <small>For educational purposes only.<br>
-  <a href="https://github.com/Saged-io/Saged-Blockchain" target="_blank">Source code</a>
-  <br>
-  <a href="https://github.com/Saged-io/Saged-Blockchain-FrontEnd" target="_blank">Source code (Front End)</a>
-</small>
+  <small>
+  <a href="https://github.com/Saged-io/Saged-Blockchain" target="_blank">Source code</a> <br>
+  <a href="https://github.com/Saged-io/Saged-Blockchain-FrontEnd" target="_blank">Source code (FRONT END)</a>
+
+  </small>
 </footer>
+

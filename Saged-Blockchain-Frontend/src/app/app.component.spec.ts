@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Saged-Blockchain-Frontend'`, () => {
+  it(`should have as title 'savjeecoin-frontend'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('Saged-Blockchain-Frontend');
+    expect(app.title).toEqual('savjeecoin-frontend');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to Saged-Blockchain-Frontend!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to savjeecoin-frontend!');
   });
 });
